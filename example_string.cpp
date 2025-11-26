@@ -1,11 +1,13 @@
 #include <iostream>
 
 int main() {
-    std::string name = "Luise";
-    std::string food = "Eggs";
+    using namespace std;
 
-    std::cout << "Hello " << name << ".\n";
-    std::cout << name << " love eating " << food << ".\n";
+    string name = "Luise";
+    string food = "Eggs";
+
+    cout << "Hello " << name << ".\n";
+    cout << name << " love eating " << food << ".\n";
 
     return 0;
 }
