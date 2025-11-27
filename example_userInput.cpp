@@ -5,7 +5,9 @@ int main(){
     int age;
 
     std::cout << "What's your name?: ";
-    std::getline(std::cin, name);
+        std::getline(std::cin >> std::ws, name); //this >> std::ws will 
+                                                 //eleminate any white 
+                                                 //spaces before user input
     
     std::cout << "What's your age?: ";
     std::cin >> age;
